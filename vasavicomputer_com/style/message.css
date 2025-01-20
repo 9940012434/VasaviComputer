@@ -1,0 +1,39 @@
+﻿.info, .success, .warning, .error {
+    background-repeat:no-repeat;
+    padding:10px;
+    padding-left:50px;
+    background-position:10px center;
+    width:450px; margin:5px auto;
+    font-size:12px;
+    margin:0 auto;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+   
+}
+.info {
+    color: #00529B;
+    background-color: #f2fafd;
+    background-image: url('../icons/info.png');
+    border:1px solid #00529B;
+}
+.success {
+    color: #4F8A10;
+    background-color: #f9fff7;
+    background-image:url('../icons/success.png');
+    border:1px solid #4F8A10;
+}
+.warning {
+    color: #9F6000;
+    background-color: #fffaf2;
+    background-image: url('../icons/warning.png');
+    border:1px solid #9F6000;
+}
+.error {
+    color: #D8000C;
+    background-color: #fdf2f2;
+    background-image: url('../icons/error.png');
+    border:1px solid #D8000C;
+}
+.error ul li {
+    list-style-type:circle; margin-left: 20px; padding:3px;
+}

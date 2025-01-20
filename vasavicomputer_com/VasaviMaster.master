@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="VasaviMaster.master.cs"
+    Inherits="VasaviMaste" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>VasaviComputers- Index</title>
+    <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="Bodycontainer">
+        <div id="topHeaderBg">
+            <div class="logoText">
+                <a href="Profile.aspx">
+                    <img src="images/vasaviComputerLogo.gif" border="0" /></a></div>
+            <div class="topText1">
+                <a class="topText" href="Sitemap.aspx">Site Map</a> | <a class="topText" href="http://mail.vasavicomputer.com/squirrelmail/src/login.php"
+                    target="_blank">Web Mail</a>
+            </div>
+     
+         <div class="topHeaderImg">
+                <img src="images/topHeaderImg1.jpg" /></div>
+             <div class="comSlogan">
+                <img src="images/slogan.gif" /></div>
+        </div>
+        <div id="navArea">
+            <div class="nav">
+                <div id="menu">
+                    <ul>
+                        <li class="menu1"><a href="Default.aspx">Home</a></li>
+                        <li class="menu1"><a href="Profile.aspx">Company Profile</a></li>
+                        <li class="menu1"><a href="Services.aspx">Our Services</a></li>
+                        <li class="menu1"><a href="Products.aspx">Products</a></li>
+                        <li class="menu1"><a href="Contactus.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="newsHeader">
+                News & Events</div>
+        </div>
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td  valign="top" style="background-color:#F1F1F1;">
+                    <div id="RightPanel">
+                        <div class="newsBox">
+                            Now use eye movement to play computer games
+                            <hr />
+                            Asus launches 3D gaming notebook in India
+                            <hr />
+                            Amkette launches Micro SD card with USB card reader
+                            <hr />
+                            Apple's new iPad already sold out
+                            <div style="text-align: right; height: 20px; padding-top: 8px;">
+                                <a href="news.aspx">
+                                    <img src="images/readMore.png" border="0" /></a></div>
+                        </div>
+                        <div class="space">
+                            &nbsp;</div>
+                        <div class="prTxt">
+                            processors</div>
+                        <div class="rpCol">
+                            <a class="frpColTextMenu" href="Products.aspx#accessories">The Central Processing Unit (CPU) or the processor
+                                is the portion of a computer system that carries out the instructions of a computer
+                                program, and is the primary element carrying out the computer's functions.</a></div>
+                        <div class="rpImg">
+                            <img src="images/proThumb.gif" /></div>
+                        <div class="space">
+                            &nbsp;</div>
+                        <hr />
+                        <div class="prTxt">
+                            Mother Boards</div>
+                        <div class="rpCol">
+                            <a class="frpColTextMenu" href="Products.aspx#accessories">A motherboard is the central printed circuit board
+                                (PCB) in many modern computers and holds many of the crucial components of the system,
+                                while providing connectors for other peripherals.</a></div>
+                        <div class="rpImg">
+                            <img src="images/mBoardThumb.gif" /></div>
+                        <div class="space">
+                            &nbsp;</div>
+                        <hr />
+                        <div class="prTxt">
+                            Computer peripherals</div>
+                        <div class="rpCol">
+                            <a class="frpColTextMenu" href="Products.aspx#accessories">A peripheral is a device attached to a host computer
+                                but not part of it, and is more or less dependent on the host. It expands the host's
+                                capabilities, but does not form part of the core computer architecture.</a></div>
+                        <div class="rpImg">
+                            <img src="images/comPerThumb.gif" /></div>
+                        <div class="space">
+                            &nbsp;</div>
+                        <hr />
+                        <div class="prTxt">
+                            Antiviruses</div>
+                        <div class="rpCol">
+                            <a class="frpColTextMenu" href="Products.aspx#softwares">Virus protection is a vital aspect of any messaging
+                                deployment. Discover antivirus software tools and tips that will help protect and
+                                secure System data.</a></div>
+                        <div class="rpImg">
+                            <img src="images/antiVirThumb1.jpg" /></div>
+                        <div class="space">
+                            &nbsp;<div class="space">
+                                &nbsp;</div>
+                        </div>
+                        <div>
+                            <br />
+                            <img src="images/rightPanelFooter.gif" /></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="clearfloat">
+        </div>
+        <div id="Footer">
+            <a href="Default.aspx" class="footernavMenu">Home</a>| <a href="Profile.aspx" class="footernavMenu">
+                Company Profile</a>| <a href="Services.aspx" class="footernavMenu">Our Services</a>|
+            <a href="Products.aspx" class="footernavMenu">Products</a>| <a href="Contactus.aspx"
+                class="footernavMenu">Contact Us</a>| <a href="Sitemap.aspx" class="footernavMenu">Sitemap</a>|
+            <a href="http://mail.vasavicomputer.com" class="footernavMenu" target="_blank">Web Mail</a>
+            <br />
+            <font color="black">© Copyright 2010. <a href="http://www.vasavicomputer.com" class="footernavMenu">www.vasavicomputer.com</a>,  All rights Reserved.<br />
+        Site developed & maintained by <a href="http://www.intellectualinfotech.com" target="_blank" class="footernavMenu">Intellectual Info Technologies</a>
+        </font>
+        </div>
+    </div>
+</body>
+</html>
